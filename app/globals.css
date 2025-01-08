@@ -3,19 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Light mode background */
+  --foreground: #171717; /* Light mode text color */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a; /* Dark mode background */
+    --foreground: #ededed; /* Dark mode text color */
   }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background); /* Use background-color for clarity */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* Ensure consistent margins */
+  padding: 0; /* Ensure consistent padding */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* General bullet and numbered list styles */
+ul,
+ol {
+  padding-left: 2rem; /* Indent lists for readability */
+  margin: 1rem 0;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.5rem; /* Add spacing between items */
+}
+
+/* Custom unordered list bullet style */
+ul li::marker {
+  color: #ffcc00; /* Yellow bullet color */
+  font-size: 1.2rem; /* Slightly larger bullets */
+}
+
+/* Custom ordered list number style */
+ol li::marker {
+  color: #ffcc00; /* Yellow number color */
+  font-weight: bold; /* Bold numbers */
+}
+
+/* Optional: Ensure fallback for invalid CSS rules (if you need custom font classes) */
+.font-custom {
   font-family: Arial, Helvetica, sans-serif;
 }
