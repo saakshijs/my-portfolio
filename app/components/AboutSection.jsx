@@ -193,16 +193,16 @@ const AboutSection = () => {
 In addition to my technical expertise, I am deeply committed to continuous personal and professional growth, embracing new opportunities to expand my knowledge and skill set. Whether collaborating with a team or working independently, I bring dedication, adaptability, and a results-oriented mindset to every project. I aim to make a meaningful contribution to the tech industry while championing innovation and excellence."
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
+                <TabButton selectTab={()=>handleTabChange("education")} active={tab==='education'}>{""}Education {""}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("skills")} active={tab==='skills'}>{""}Skills {""}</TabButton>
-                    <TabButton selectTab={()=>handleTabChange("education")} active={tab==='education'}>{""}Education {""}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("experience")} active={tab==='experience'}>{""}Experiences{""}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("certifications")} active={tab==='certifications'}>{""}Certifications{""}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("parts")} active={tab==='parts'}>Participation in events</TabButton>
-                    <TabButton selectTab={()=>handleTabChange("hobbies")} active={tab==='hobbies'}>{""}Hobbies{""}</TabButton>
-                    <TabButton selectTab={()=>handleTabChange("languages")} active={tab==='languages'}>{""}Languages Spoken{""}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("rewards")} active={tab==='rewards'}>{""}Awards{""}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("voluntary")} active={tab==='voluntary'}>{""}Voluntary Activities{""}</TabButton>
                     <TabButton selectTab={()=>handleTabChange("responsibilities")} active={tab==='responsibilities'}>{""}Responsibilities Handled{""}</TabButton>
+                    <TabButton selectTab={()=>handleTabChange("hobbies")} active={tab==='hobbies'}>{""}Hobbies{""}</TabButton>
+                    <TabButton selectTab={()=>handleTabChange("languages")} active={tab==='languages'}>{""}Languages Spoken{""}</TabButton>
                 </div>
                 <div className='mt-8'>{TAB_DATA.find((t)=>t.id===tab).content}</div>
             </div>
