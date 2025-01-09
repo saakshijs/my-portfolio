@@ -55,14 +55,23 @@ const TAB_DATA=[
         id:"certifications",
         content:(
             <ul className='list-disc pl-2'>
-                <li>AI Tools Workshop, Be10x,July 2023</li>
-                <li>Introduction to React, AIMIT,June 2023 </li>
-                <li>Completed 5-day Adobe Premiere Pro video editing workshop by SkillNation in 
-                October 2022. </li>
-                <li>Attended Data Science and AI career bootcamp by Datamites on 22nd September 
-                2022.</li>
-                <li> Web Designing, HTML, CSS, JavaScript, AIMIT June-2021.</li>
-                <li>Python Online Course, Brain O Vision-May-2021.</li>
+                <li><a href="/certificates/codingNinjaFE.pdf">Coding Ninjas Frontend</a></li>
+                <li><a href='/certificates/CodingNinjajavaDS.pdf'>Coding Ninjas DSA in Java</a></li>
+                <li><a href='/certificates/CodingNinjajava.pdf'>Coding Ninjas Introduction to java</a></li>
+                <li><a href='/certificates/Be.pdf'>AI Tools Workshop, Be10x,July 2023</a></li>
+                <li><a href='/certificates/react.pdf'>Introduction to React, AIMIT,June 2023</a> </li>
+                <li><a href='/certificates/pp.pdf'>Completed 5-day Adobe Premiere Pro video editing workshop by SkillNation in 
+                October 2022.</a> </li>
+                <li><a href='/certificates/dd.png'>Attended Data Science and AI career bootcamp by Datamites on 22nd September 
+                2022.</a></li>
+                <li><a href='/certificates/BB1.jpg'>Online workshop on Python basics-By BetaBlue foundation,July 2021</a></li>
+                <li><a href='/certificates/BB2.jpg'>Online workshop on Python with data science-By BetaBlue foundation,July 2021</a></li>
+                <li><a href='/certificates/BB3.jpg'>Online workshop on Python with Machine Learning-By BetaBlue foundation,July 2021</a></li>
+                <li><a href='/certificates/BB4.jpg'>Online workshop on Cybersecurity-By BetaBlue foundation,July 2021</a></li>
+                <li><a href='/certificates/5dwd.jpg'>Web Designing, HTML, CSS, JavaScript, AIMIT June-2021.</a></li>
+                <li><a href='/certificates/BOV.jpg'>Python Online Course, Brain O Vision-May-2021.</a></li>
+                <li><a href='/certificates/GreatlearningD.jpg'>Course on Introduction to Digital Marketing by Great Learning,November-2020</a></li>
+                <li><a href='/certificates/GreatlearningJ.jpg'>Course on Java by Great Learning,November-2020</a></li>
 
             </ul>
         )
@@ -98,7 +107,8 @@ const TAB_DATA=[
                 <li>Video Editing</li>
                 <li>Playing roles in yakshagana</li>
                 <li> Learning and playing chende (musical instrument). </li>
-                <li>Learning astrology</li>
+                <li>Learning astrology(Nakshatra Naadi)</li>
+                <li>Little interested in MC </li>
             </ul>
         )
     },
